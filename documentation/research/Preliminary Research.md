@@ -48,16 +48,27 @@ Website: [FonTele S2 (youtube.com)](https://www.youtube.com/watch?v=Hsf1dmJm38M)
 
 This is a featurephone with a numpad and physical buttons that runs with the help of an Arduino board. Just like the [[#ZeroPhone]] it has an LCD display and it has a custom OS like the [[#Weaver MPX]], however it also has a snake game, texting and other features, making a hybrid between the two. However, in the Weaver MPX fashion, it's only "documentation" are a series of YouTube videos, so not much can be extracted from that.
 
+### KiteBoard
+Website: [Kiteboard (kiteboard.io)](https://www.kiteboard.io/)
+
+While not actually a phone, but a unified module board to make a phone-like device, KiteBoard is an interesting project. It's very similar to Google's Ara but with open source hardware. The aim of this board was to build your own phone from a library of components to customize it to your own need. This is interesting in terms of modularity or customizability, however it faced a similar tragic ending as [[#Project Ara]] as it didn't meet it's funding goal. [^kiteboard]
+
 ## Inspirations
+### Project Ara
+Website (unofficial):  [Project Ara (leaflabs.com)](https://www.leaflabs.com/project)
+
+This is one of the craziest attempts at Google to create a new trend: a modular phone. Alas, they failed. However, I will take part of inspiration from the modularity aspect of this phone and implement it on my own where possible. Although expect to be closer to [[#PinePhone]]'s modularity.
+
 ### Liberty Phone
 Website: [Liberty Phone (puri.sm)](https://puri.sm/products/liberty-phone/)
 
 The main feature that I took inspiration from this phone was the [[physical kill switch buttons]]
 
-### Project Ara
-Website (unofficial):  [Project Ara (leaflabs.com)](https://www.leaflabs.com/project)
+### Minimal
+Website: [Minimal (minimalcompany.com)](https://minimalcompany.com/)
 
-This is one of the craziest attempts at Google to create a new trend: a modular phone. Alas, they failed. However, I will take part of inspiration from the modularity aspect of this phone and implement it on my own where possible. Although expect to be closer to [[#PinePhone]]'s modularity.
+Even though it's not opensource at all, it is still an interesting project. It features a full qwerty mini-keyboard and an e-ink display to see the Android 14 environment. It's unique. They based their design choices on some reddit polls apparently which is non-conventional [^mnm_red]. Overall it is a great idea and with some very unique ideas to take inspiration from.
+
 
 ### Nothing's Design
 Website: [Nothing (nothing.tech)](https://nothing.tech/)
@@ -72,7 +83,7 @@ The design will be inspired by the transparency, simplicity and modernity of Not
 Many people have already had the same idea before, with most of them being stuck at the planning section. This is a list to showcase how necessary is an opensource consumer-first phone in the current market.
 
 People who had their own ideas:
-- [A Smartphone Designed to Help You Disconnect](https://www.reddit.com/r/dumbphones/comments/18r84gu/a_smartphone_designed_to_help_you_disconnect/): This one actually turned into a full fledged commercial phone under the branding of [minimalcompany.com](https://minimalcompany.com/). It features a e-ink display with a qwerty keyboard and it runs Android 14. Shockingly it managed to raise more than 750k USD. It just recently started shipping it's units, although most people aren't getting their products... [^1] I hope it won't be a scam.
+- [A Smartphone Designed to Help You Disconnect](https://www.reddit.com/r/dumbphones/comments/18r84gu/a_smartphone_designed_to_help_you_disconnect/): This one actually turned into a full fledged commercial phone under the branding of [minimalcompany.com](https://minimalcompany.com/). It features a e-ink display with a qwerty keyboard and it runs Android 14. Shockingly it managed to raise more than 750k USD. It just recently started shipping it's units, although most people aren't getting their products... [^minimal] I hope it won't be a scam. (Referenced in [[#Minimal]])
 - [Calling All Makers: Let's Build an Open Source E-Ink Dumb Phone!](https://www.reddit.com/r/maker/comments/1e3tp41/calling_all_makers_lets_build_an_open_source_eink/): This is an interesting one and it even has a small but dead Discord server. It's most interesting channel is the \#resources where some other similar phones and projects are listed.
 - [Hello! I'm making an open-source dumbphone, what should the final design look like?](https://www.reddit.com/r/dumbphones/comments/nfui5x/hello_im_making_an_opensource_dumbphone_what/): Also, some interesting ideas are mentioned about the specs of the phone. "u/jhonny-stene" had this idea for a while.
 
@@ -94,5 +105,6 @@ People who are just lost but have the spirit:
 - [Could a sufficiently talented electrical/computer engineer completely design an entire smartphone by themselves?](https://www.reddit.com/r/AskEngineers/comments/zbpq6y/could_a_sufficiently_talented_electricalcomputer/)
 
 
-[^1]: https://www.indiegogo.com/projects/the-minimal-phone-first-e-ink-qwerty-phone#/discussion
-
+[^minimal]: https://www.indiegogo.com/projects/the-minimal-phone-first-e-ink-qwerty-phone#/discussion
+[^kiteboard]: https://www.kickstarter.com/projects/2070436562/kite
+[^mnm_red]: [E-Ink vs LCD (reddit.com)](https://www.reddit.com/r/dumbphones/comments/18xvnys/eink_vs_lcd_displays_for_dumb_phones_whats_your/) and [QWERTY vs Touch (reddit.com)](https://www.reddit.com/r/dumbphones/comments/190rwrh/qwerty_vs_touch_for_dumb_phones_whats_your/)
