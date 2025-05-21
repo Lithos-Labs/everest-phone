@@ -12,7 +12,7 @@ Everest isn't just about building a phone, it's about documenting the process to
 
 It's written not just for end users, but for developers, engineers, researchers, and anyone interested in building open source hardware. 
 
-Explore the project in depth at the [official documentation site](https://lithoslabs.github.io/everest)
+Explore the project in depth at the [official documentation site](https://lithos-labs.github.io/everest-phone)
 
 ## Contributing
 
