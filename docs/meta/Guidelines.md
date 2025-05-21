@@ -53,7 +53,7 @@ To generate the site,  from the root folder run the following commands:
 
 ```bash
 cd site
-npx run build -d ../docs
+npx run build -d ../docs --serve
 ```
 
 ### GitHub actions

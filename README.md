@@ -1,5 +1,7 @@
 # Everest Phone
 
+![everest logo](docs/meta/logos/logo-text.svg)
+
 **Everest** aims to build the first fully open-source, modern smartphone — including hardware, software, and documentation.
 
 > 🏗️ This project is under active development
