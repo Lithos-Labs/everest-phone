@@ -1,6 +1,6 @@
 > Summary of some ideas discussed in a private chat with ChatGPT on 2025-01-05 about how I would make a commercial user phone.
 
-This was based primarily after seeing the failure of  [[Preliminary Research#Google's Arora|Google's Arora]] and my appreciation but misalignment of values with the [[Preliminary Research#PinePhone|PinePhone]].
+This was based primarily after seeing the failure of  [[Preliminary Research#Project Ara|Google's Ara]] and my appreciation but misalignment of values with the [[Preliminary Research#PinePhone|PinePhone]].
 
 Even though some things are simply unrealistic for a small scale project like the current one (and even for a startup), it still can serve as a general guideline for the values of the phone.
 

@@ -1,6 +1,5 @@
 > The initial research on the market and existing options before starting the project.
 
-%%2025-05-11%%
 ## Existing similar projects
 One of the first things that I did was research the existing options for quite a while, this were all of the relevant projects that I found:
 
@@ -55,7 +54,7 @@ While not actually a phone, but a unified module board to make a phone-like devi
 
 ## Inspirations
 ### Project Ara
-Website (unofficial):  [Project Ara (leaflabs.com)](https://www.leaflabs.com/project)
+Website (unofficial):  [Project Ara (leaflabs.com)](https://www.leaflabs.com/project-ara)
 
 This is one of the craziest attempts at Google to create a new trend: a modular phone. Alas, they failed. However, I will take part of inspiration from the modularity aspect of this phone and implement it on my own where possible. Although expect to be closer to [[#PinePhone]]'s modularity.
 

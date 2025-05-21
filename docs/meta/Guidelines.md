@@ -1,5 +1,4 @@
 > Documentation rules and formatting.
-
 ## Formatting
 
 This documentation is intended to remain readable and coherent throughout the whole duration of the project development and maintenance. Only a robust and cohesive structure will allow that.
@@ -47,3 +46,14 @@ To do list should be reserved to be used only in [[To Do]]. All completed tasks 
 Git backups should be done frequently at every relevant change that is made both in the documentation and in the project as a whole. There should be at least one commit per task completed in the [[To Do]].
 
 The style formatting should follow the guidelines of [Conventional Commits (conventionalcommits.org)](https://www.conventionalcommits.org/en/v1.0.0/).
+
+## Generating the Site
+### Locally - for testing
+To generate the site,  from the root folder run the following commands:
+
+```bash
+cd site
+npx run build -d ../docs
+```
+
+### GitHub actions

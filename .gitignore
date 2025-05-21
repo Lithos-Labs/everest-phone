@@ -1,3 +1,5 @@
 .obsidian
 .trash
 *.bat
+site/public
+Log.md

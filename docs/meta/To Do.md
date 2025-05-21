@@ -1,6 +1,7 @@
 >To Do list for the project
 
 ## Remaining
+- [ ] Set up GitHub repository with documentation and site
 - [ ] Define a starting scope
 - [ ] Define a preliminary PDS
 

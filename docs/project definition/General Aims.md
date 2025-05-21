@@ -15,7 +15,7 @@ The proof of concept stage will be made to demonstrate that it is possible to bu
 > *"I hate phones, that's why I want to make one"*
 
 - The main goal is to demonstrate that phones can be done right
-- **Completely** open source in both the software and hardware
+- Completely open source in both the software and hardware
 - The development will be thoroughly documented to offer the best resource for learning about phone design
 
 By demonstrating that capable open source phones can be created, the aim is to then bridge into larger scale production. The thorough documentation throughout the process, if done right, could become the best resource ever for phone manufacturing as most of the techniques are gatekept my manufacturers or scattered across obscure documentation.
