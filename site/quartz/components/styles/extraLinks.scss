@@ -1,0 +1,26 @@
+@use "../../styles/variables.scss" as *;
+
+header {
+    justify-content: right;
+}
+
+#links-header {
+    a.links-header-item {
+    display: inline-block;
+    padding-left: 1rem;
+    box-sizing: border-box;
+  }  
+}
+
+@media screen and ($mobile) {
+  #links-header {
+    display: block;
+    overflow: scroll;
+    white-space: nowrap;
+  
+    & a.links-header-item {
+      box-sizing: unset;
+      width: unset;
+    }
+  }
+}

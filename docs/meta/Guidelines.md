@@ -21,8 +21,9 @@ This documentation is intended to remain readable and coherent throughout the wh
 ### Date and time
 Dates should be included where relevant and should follow the ISO 8601 standard and be inside curly braces.
 
->[!Example]
- (2025-05-11)
+> [!example] Date example
+>
+> (2025-05-11)
 
 ### External links
 External links that refer to other websites should always be in the following format:
@@ -33,8 +34,9 @@ External links that refer to other websites should always be in the following fo
 
 Even though it increases verbosity, it also increases transparency whilst at the same time providing information about the page content.
 
->[!example]
- For instance this URL: 
+> [!example] URL Example
+>
+> For instance this URL: 
 > https://en.wikipedia.org/wiki/Cat 
 > would be formatted as:
 > [cat (wikipedia.org)](https://en.wikipedia.org/wiki/Cat)

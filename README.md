@@ -1,6 +1,6 @@
 # Everest Phone
 
-![everest logo](docs/meta/logos/logo-text.svg)
+![everest logo](docs/meta/logos/logo-text.png)
 
 **Everest** aims to build the first fully open-source, modern smartphone — including hardware, software, and documentation.
 

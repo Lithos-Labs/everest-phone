@@ -13,7 +13,9 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "umami",
+      host: "https://cloud.umami.is/script.js",
+      websiteId: "eaa3d864-e013-4de9-b4b4-02ff6737416b"
     },
     locale: "en-US",
     baseUrl: "lithos-labs.github.io/everest-phone",
@@ -23,32 +25,36 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        title: "JetBrains Mono",
+        header: "Roboto Mono",
+        body: "Noto Sans",
+        code: "JetBrains Mono",
       },
       colors: {
+        // From the Catppuccin colortheme
+        // Catppuccin late
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#eff1f5", // Background - Base
+          lightgray: "#9ca0b0", // Borders - Overlay 0
+          gray: "#7c7f93", // Heavier borders, graph links - Overlay 2
+          darkgray: "#4c4f69", // Body text - Text
+          dark: "#1e66f5", // Header text, icons - Blue
+          secondary: "#5c5f77", // Link color, current graph node - Subtext 1
+          tertiary: "#209fb5", // Hover, visited graph nodes - Sapphire
+          highlight: "rgba(10, 102, 245, 0.15)", // Link background, highlighted text - Blue
+          textHighlight: "#40a02b", // Mardkown highlight - Green
         },
+        // Catpuccin Machiato
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#24273a", // Background - Base
+          lightgray: "#6e738d", // Borders - Overlay 0
+          gray: "#939ab7", // Heavier borders, graph links - Overlay 2
+          darkgray: "#cad3f5", // Body text - Text
+          dark: "#8aadf4", // Header text, icons - Blue
+          secondary: "#b8c0e0", // Link color, current graph node - Subtext 1
+          tertiary: "#7dc4e4", // Hover, visited graph nodes - Sapphire
+          highlight: "rgba(138, 173, 244, 0.2)", // Link background, highlighted text - Blue
+          textHighlight: "#a6da95", // Markdown highlight - Green
         },
       },
     },
@@ -89,7 +95,11 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      /*
+      Plugin.CustomOgImages({
+        colorScheme: "darkMode"
+      }),
+      */
     ],
   },
 }
